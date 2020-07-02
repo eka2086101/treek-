@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>670669976127-ef8gcvhuh8mc3uc73s0pi7sntfr1i3mu.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.670669976127-ef8gcvhuh8mc3uc73s0pi7sntfr1i3mu</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDKtI9wtTWYybMsnhzpH0zX14Bq8RQdolY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>670669976127</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>iosdev16test</string>
+	<key>PROJECT_ID</key>
+	<string>samplefirebathauth</string>
+	<key>STORAGE_BUCKET</key>
+	<string>samplefirebathauth.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:670669976127:ios:7e7c89484d29e946ca3e8a</string>
+	<key>DATABASE_URL</key>
+	<string>https://samplefirebathauth.firebaseio.com</string>
+    <key>CFBundleURLTypes</key> <array> <dict> <key>iosdev16test</key> <array> <string>fb2598309683742231</string> </array> </dict> </array> <key>iosdev16test</key> <string>2598309683742231</string> <key>NORANORA</key> <string>NORANORA</string>
+</dict>
+</plist>
