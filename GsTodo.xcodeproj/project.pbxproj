@@ -11,11 +11,8 @@
 		1593A26C24954272000EC6E1 /* TermsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1593A26A24954272000EC6E1 /* TermsViewController.xib */; };
 		15AE2C8B2494E20D00F17D2B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15AE2C892494E20D00F17D2B /* LoginViewController.swift */; };
 		15AE2C8C2494E20D00F17D2B /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15AE2C8A2494E20D00F17D2B /* LoginViewController.xib */; };
-		67166CA223D0419F008EF0CA /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67166CA023D0419F008EF0CA /* CustomCell.swift */; };
-		67166CA323D0419F008EF0CA /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67166CA123D0419F008EF0CA /* CustomCell.xib */; };
 		67E03F9723CEC75400B8220F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E03F9623CEC75400B8220F /* AppDelegate.swift */; };
 		67E03F9923CEC75400B8220F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E03F9823CEC75400B8220F /* SceneDelegate.swift */; };
-		67E03F9B23CEC75400B8220F /* TaskListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E03F9A23CEC75400B8220F /* TaskListViewController.swift */; };
 		67E03F9E23CEC75400B8220F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67E03F9C23CEC75400B8220F /* Main.storyboard */; };
 		67E03FA023CEC75700B8220F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67E03F9F23CEC75700B8220F /* Assets.xcassets */; };
 		67E03FA323CEC75700B8220F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67E03FA123CEC75700B8220F /* LaunchScreen.storyboard */; };
@@ -25,8 +22,6 @@
 		9109DC3724AB5B030001458D /* MenueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9109DC3524AB5B030001458D /* MenueViewController.swift */; };
 		9109DC3824AB5B030001458D /* MenueViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9109DC3624AB5B030001458D /* MenueViewController.xib */; };
 		91118B58249DD27500440438 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91118B57249DD27500440438 /* GoogleService-Info.plist */; };
-		C582572E2493C42600894CC9 /* TaskDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C582572C2493C42600894CC9 /* TaskDetailViewController.swift */; };
-		C582572F2493C42600894CC9 /* TaskDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C582572D2493C42600894CC9 /* TaskDetailViewController.xib */; };
 		C5954A332462D6FC00B008D3 /* UserDefaultsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5954A322462D6FC00B008D3 /* UserDefaultsRepository.swift */; };
 		E094E66B08DB6EEBFBEAD03E /* Pods_GsTodo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9AB653721F34E9BC81317D6 /* Pods_GsTodo.framework */; };
 /* End PBXBuildFile section */
@@ -37,12 +32,9 @@
 		15AE2C892494E20D00F17D2B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		15AE2C8A2494E20D00F17D2B /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		5AAC0FEE29D3E70D6F84B27B /* Pods-GsTodo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GsTodo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GsTodo/Pods-GsTodo.debug.xcconfig"; sourceTree = "<group>"; };
-		67166CA023D0419F008EF0CA /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
-		67166CA123D0419F008EF0CA /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
 		67E03F9323CEC75400B8220F /* GsTodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GsTodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67E03F9623CEC75400B8220F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67E03F9823CEC75400B8220F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		67E03F9A23CEC75400B8220F /* TaskListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewController.swift; sourceTree = "<group>"; };
 		67E03F9D23CEC75400B8220F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		67E03F9F23CEC75700B8220F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67E03FA223CEC75700B8220F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,8 +46,6 @@
 		9109DC3624AB5B030001458D /* MenueViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenueViewController.xib; sourceTree = "<group>"; };
 		91118B57249DD27500440438 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B9AB653721F34E9BC81317D6 /* Pods_GsTodo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GsTodo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C582572C2493C42600894CC9 /* TaskDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailViewController.swift; sourceTree = "<group>"; };
-		C582572D2493C42600894CC9 /* TaskDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TaskDetailViewController.xib; sourceTree = "<group>"; };
 		C5954A322462D6FC00B008D3 /* UserDefaultsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsRepository.swift; sourceTree = "<group>"; };
 		CBD66412238EBD6BC1DDF237 /* Pods-GsTodo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GsTodo.release.xcconfig"; path = "Pods/Target Support Files/Pods-GsTodo/Pods-GsTodo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -102,10 +92,7 @@
 		675B63BD23CF040F00F9A5AC /* TaskListViewController */ = {
 			isa = PBXGroup;
 			children = (
-				67E03F9A23CEC75400B8220F /* TaskListViewController.swift */,
 				67E03F9C23CEC75400B8220F /* Main.storyboard */,
-				67166CA023D0419F008EF0CA /* CustomCell.swift */,
-				67166CA123D0419F008EF0CA /* CustomCell.xib */,
 			);
 			path = TaskListViewController;
 			sourceTree = "<group>";
@@ -149,15 +136,14 @@
 		67E03F9523CEC75400B8220F /* GsTodo */ = {
 			isa = PBXGroup;
 			children = (
-				9109DC3924AB5B0C0001458D /* Menue */,
 				67E03F9623CEC75400B8220F /* AppDelegate.swift */,
+				9109DC3924AB5B0C0001458D /* MenueViewController */,
 				1593A26D2495427D000EC6E1 /* TermsViewCotroller */,
 				15AE2C8D2494E22300F17D2B /* LoginViewController */,
 				67E03F9823CEC75400B8220F /* SceneDelegate.swift */,
 				C5954A312462D68200B008D3 /* Repositories */,
 				678EAB9023CF034E00FE4177 /* Models */,
 				675B63BD23CF040F00F9A5AC /* TaskListViewController */,
-				C582572B2493C3FC00894CC9 /* TaskDetailViewController */,
 				675B63BF23CF042700F9A5AC /* AddViewController */,
 				67E03F9F23CEC75700B8220F /* Assets.xcassets */,
 				67E03FA123CEC75700B8220F /* LaunchScreen.storyboard */,
@@ -174,22 +160,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9109DC3924AB5B0C0001458D /* Menue */ = {
+		9109DC3924AB5B0C0001458D /* MenueViewController */ = {
 			isa = PBXGroup;
 			children = (
 				9109DC3524AB5B030001458D /* MenueViewController.swift */,
 				9109DC3624AB5B030001458D /* MenueViewController.xib */,
 			);
-			path = Menue;
-			sourceTree = "<group>";
-		};
-		C582572B2493C3FC00894CC9 /* TaskDetailViewController */ = {
-			isa = PBXGroup;
-			children = (
-				C582572C2493C42600894CC9 /* TaskDetailViewController.swift */,
-				C582572D2493C42600894CC9 /* TaskDetailViewController.xib */,
-			);
-			path = TaskDetailViewController;
+			path = MenueViewController;
 			sourceTree = "<group>";
 		};
 		C5954A312462D68200B008D3 /* Repositories */ = {
@@ -265,9 +242,7 @@
 				1593A26C24954272000EC6E1 /* TermsViewController.xib in Resources */,
 				91118B58249DD27500440438 /* GoogleService-Info.plist in Resources */,
 				9109DC3824AB5B030001458D /* MenueViewController.xib in Resources */,
-				67166CA323D0419F008EF0CA /* CustomCell.xib in Resources */,
 				67E03FA323CEC75700B8220F /* LaunchScreen.storyboard in Resources */,
-				C582572F2493C42600894CC9 /* TaskDetailViewController.xib in Resources */,
 				67E03FA023CEC75700B8220F /* Assets.xcassets in Resources */,
 				67E03FAD23CEC8DD00B8220F /* AddViewController.xib in Resources */,
 				67E03F9E23CEC75400B8220F /* Main.storyboard in Resources */,
@@ -342,14 +317,11 @@
 			files = (
 				15AE2C8B2494E20D00F17D2B /* LoginViewController.swift in Sources */,
 				9109DC3724AB5B030001458D /* MenueViewController.swift in Sources */,
-				67E03F9B23CEC75400B8220F /* TaskListViewController.swift in Sources */,
 				67E03F9723CEC75400B8220F /* AppDelegate.swift in Sources */,
 				67E03FB223CEFB6B00B8220F /* Task.swift in Sources */,
 				1593A26B24954272000EC6E1 /* TermsViewController.swift in Sources */,
 				67E03FAC23CEC8DD00B8220F /* AddViewController.swift in Sources */,
 				C5954A332462D6FC00B008D3 /* UserDefaultsRepository.swift in Sources */,
-				67166CA223D0419F008EF0CA /* CustomCell.swift in Sources */,
-				C582572E2493C42600894CC9 /* TaskDetailViewController.swift in Sources */,
 				67E03F9923CEC75400B8220F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

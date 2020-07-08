@@ -26,8 +26,7 @@ class TaskListViewController: UIViewController, UITableViewDelegate, UITableView
             print("\(String(describing: Auth.auth().currentUser?.email)):ログインユーザーのemail")
         } else {
             //まだログインしていないときはログイン画面表示
-            //self.presentLoginViewController()
-            self.presentMenueViewController()
+            self.presentLoginViewController()
         }
         
         // tableViewのお約束その１。この ViewController で delegate のメソッドを使うために記述している。
@@ -65,18 +64,12 @@ class TaskListViewController: UIViewController, UITableViewDelegate, UITableView
         }
     }
     
-
     func presentLoginViewController(){
         let loginVC = LoginViewController()
         loginVC.modalPresentationStyle = .fullScreen
         self.present(loginVC, animated: false, completion: nil)
     }
-    
-    func presentMenueViewController(){
-        let MenueVC = MenueViewController()
-        MenueVC.modalPresentationStyle = .fullScreen
-        self.present(MenueVC, animated: false, completion: nil)
-    }
+
     #warning("navigation barのボタン追加")
     // navigation barの設定
     private func setupNavigationBar() {
@@ -92,8 +85,7 @@ class TaskListViewController: UIViewController, UITableViewDelegate, UITableView
         do{
         try Auth.auth().signOut()
             //ログアウトに成功したら、ログイン画面を表示
-            //self.presentLoginViewController()
-            self.presentMenueViewController()
+            self.presentLoginViewController()
         } catch let signOutError as NSError{
             print("サインアウトエラー:\(signOutError)")
         }

@@ -14,6 +14,7 @@ import FBSDKLoginKit
 class MenueViewController: UIViewController {
 
     
+    @IBOutlet weak var MailLoginBtn: UIButton!
     
     @IBOutlet weak var signInButton: GIDSignInButton!
     
@@ -21,12 +22,12 @@ class MenueViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        GIDSignIn.sharedInstance()?.presentingViewController = self
-        GIDSignIn.sharedInstance().signIn()
+//        GIDSignIn.sharedInstance()?.presentingViewController = self
+//        GIDSignIn.sharedInstance().signIn()
         
-        let loginButton = FBLoginButton()
-        loginButton.center = view.center
-        view.addSubview(loginButton)
+//        let loginButton = FBLoginButton()
+//        loginButton.center = view.center
+//        view.addSubview(loginButton)
     }
 
     override func viewWillAppear(_ animated: Bool) {
@@ -37,6 +38,11 @@ class MenueViewController: UIViewController {
         
     }
     
+    @IBAction func MailLoginBtn(_ sender: Any) {
+        let vc = LoginViewController()
+        vc.modalPresentationStyle = .fullScreen
+        self.present(vc, animated: true, completion: nil)
+          }
     /*
     // MARK: - Navigation
 

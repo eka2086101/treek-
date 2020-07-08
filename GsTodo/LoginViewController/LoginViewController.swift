@@ -58,9 +58,9 @@ class LoginViewController: UIViewController {
     //利用規約処理
     @IBAction func tapTermsButton(_ sender: Any) {
         //WebKit Viewを持つTermsViewControllerをインスタンス化
-        let termsVC = TermsViewController()
-        //表示
-        self.present(termsVC, animated: true, completion: nil)
+//        let termsVC = TreekViewController()
+//        //表示
+//        self.present(termsVC, animated: true, completion: nil)
     }
     
     //新規登録の処理
@@ -87,6 +87,11 @@ class LoginViewController: UIViewController {
             } else {
                 //成功時の処理
                 self.presentTaskList()
+                
+//                //WebKit Viewを持つTermsViewControllerをインスタンス化
+//                let termsVC = TreekViewController()
+//                //表示
+//                self.present(termsVC, animated: true, completion: nil)
             }
         }
     }

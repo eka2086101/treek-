@@ -18,7 +18,7 @@ class TermsViewController: UIViewController,WKNavigationDelegate,WKUIDelegate {
         self.wkWebView.navigationDelegate = self
         self.wkWebView.uiDelegate = self
         //表示したいWebページのURLを入れてローディング
-        self.loadWebView("https://policies.google.com/terms?hl=ja")
+        self.loadWebView("https://hatihati.sakura.ne.jp/treek!/index.html")
         // スワイプで進む、戻るを有効にする
         self.wkWebView.allowsBackForwardNavigationGestures = true
     }
@@ -42,5 +42,12 @@ class TermsViewController: UIViewController,WKNavigationDelegate,WKUIDelegate {
     }
     
     
-
+    @IBAction func LogOutBtn(_ sender: Any) {
+           // WebKit Viewを持つTermsViewControllerをインスタンス化
+             let VC = MenueViewController()
+             //表示
+             self.present(VC, animated: true,completion: nil)
+        
+    }
+    
 }
